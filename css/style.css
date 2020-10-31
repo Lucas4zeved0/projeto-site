@@ -7,10 +7,31 @@ body{
     background-color: rgb(23, 99, 99);
 }
 
+main h1 {
+    font-size: 26px;
+    color: rgb(23, 160, 160);
+    padding: 10px 0;
+}
+
+main h2 {
+    font-size: 22px;
+    color: rgb(23, 160, 160);
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(20, 97, 97);;
+}
+
 main {
+    padding: 10px 20px;
     background-color: white;
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+img.direita {
+    float: right;
 }
